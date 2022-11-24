@@ -1,19 +1,21 @@
 import React from 'react';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import  Text from './components/Text/Text';
+import { Title } from './components/Title/Title';
 
 
 function App() {
+  const nome = 'Herbert';
   return (
     <>
-      <Home />      
-      <About />
-      <Contact />
+      <Navbar />
+      <Title nome={nome}/>
+      <Text />
+     
     </>
   );
 }
 
-export default App;
+export default App  ;
 
