@@ -7,9 +7,15 @@ function Title (props: any) {
       <>
     <h1>clique pra apresentar um numero {num} vezes {props.nome}!</h1>
     <button onClick={() => setNum(num + 1)}>
-      clique aqui
+      +
+    </button>
+    <button onClick={() => setNum(num - 1)}>
+      -
     </button>
     </>
+    
+    
+    
 
       );
       
